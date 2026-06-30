@@ -116,7 +116,7 @@ function App() {
               filteredProducts.map((prod) => (
                 <div
                   key={prod.id}
-                  className="card col-12 col-sm-6 col-md-4 col-lg-3 px-0"
+                  className="card col-12 col-sm-6 col-md-4 col-lg-2 px-0"
                 >
                   <img
                     src={prod.imgUrl}
@@ -124,7 +124,7 @@ function App() {
                     alt={prod.name}
                   />
                   <div className="card-body">
-                    <h5 className="card-title text-center">{prod.name}</h5>
+                    <h6 className="card-title text-center">{prod.name}</h6>
                   </div>
                 </div>
               ))
